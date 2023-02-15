@@ -15,3 +15,14 @@ You'll need to register following services to fulfill the project implementation
 - Create [Lucidchart] account(https://www.lucidchart.com/): Lucidchart is a web-based diagramming application that allows users to visually collaborate on drawing, revising and sharing charts and diagrams, and improve processes, systems, and organizational structures 
 - Create [Honeycomb] account(https://www.honeycomb.io/): Honeycomb is a software debugging tool that can help you solve problems faster within your distributed services 
 - Create [Rollbar](https://app.rollbar.com/onboarding) account.
+
+
+# Week 0 - Billing and Architecture
+
+# Billing
+
+
+
+# Architecture Diagram
+
+Following images shows the Architecture of the **"Cruddur - Micro-Blogging application"**
