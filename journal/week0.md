@@ -28,3 +28,18 @@ You'll need to register following services to fulfill the project implementation
 Following images shows the Architecture of the **"Cruddur - Micro-Blogging application"**
 
 ### Installation & Verification of AWS CLI
+I have followed [AWS CLI installation](https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html) documentation
+
+I have installed the AWS CLI in Local machine from Command Prompt  by using following command 
+```
+msiexec.exe /i https://awscli.amazonaws.com/AWSCLIV2.msi
+```
+**Image successfull**
+
+After successfull installation I've checked for AWS version but then I"ve faced an error that AWS was not installed.
+**Image Error**
+
+Later I've fxed the issue by closing and reopening the command prompt
+
+### Configuration of Access key to CLI
+
