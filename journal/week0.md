@@ -27,6 +27,10 @@ You'll need to register following services to fulfill the project implementation
 
 Following images shows the Architecture of the **"Cruddur - Micro-Blogging application"**
 
+![Cruddur Logical Diagram](Assets/Cruddur%20Archietecture%20Diagram.png)
+
+[Cruddur Logical Diagram Link](https://lucid.app/lucidchart/82424ea2-6bf4-4f97-a989-6fc494cfdd1f/edit?viewport_loc=-104%2C320%2C2220%2C972%2C0_0&invitationId=inv_4964519e-18db-4a59-8401-97d0305a9e32)
+
 ### Installation & Verification of AWS CLI
 I have followed [AWS CLI installation](https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html) documentation
 
