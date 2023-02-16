@@ -34,12 +34,32 @@ I have installed the AWS CLI in Local machine from Command Prompt  by using foll
 ```
 msiexec.exe /i https://awscli.amazonaws.com/AWSCLIV2.msi
 ```
-**Image successfull**
+![AWS CLI Installation](Assets/Week0_AWS%20CLI%20Installation.PNG)
 
 After successfull installation I've checked for AWS version but then I"ve faced an error that AWS was not installed.
-**Image Error**
+![AWS Version Check](Assets/Week0_AWS%20Error%20after%20AWS%20CLI%20installation.PNG)
 
 Later I've fxed the issue by closing and reopening the command prompt
 
 ### Configuration of Access key to CLI
+
+I've logged in AWS console and enabled Console access under **Security Credentials** for IAM User
+![Enable Console Access](Assets/Week0_Enable%20Console%20Access.PNG)
+
+I've created Access Key for user using AWS Console and configured in command prompt using following command
+```
+AWS configure
+```
+Entered Access key, Secret Key, Location as us-east-1 generated from AWS Console.
+
+I've verified the Account details of configured Access key using following command in **Command prompt** 
+```
+aws sts get-caller-identity
+```
+![View Configured AWS Access Key](Assets/Week0_AccessKey_Configuration.PNG)
+
+![Account Verification](Assets/Week0_AWS%20Acces%20Key%20Verification.PNG)
+
+
+
 
