@@ -21,7 +21,18 @@ You'll need to register following services to fulfill the project implementation
 
 ## 1. Billing
 
+Log in as Root user to AWS Console and under **Account** scroll down to **IAM User and Role Access to Billing Information** and Edit the detail and Select **Activate IAM Access** checkbox and click Update button as shown below 
 
+![Activate Biling  for IAM User](Assets/Week0_Activate%20Billing%20for%20IAM%20user.PNG)
+
+please follow the below link to create and atttach policy to IAM User or User Group
+
+[Link to create a policy for Billing  and attach the policy for IAM User / User Group](https://docs.aws.amazon.com/IAM/latest/UserGuide/tutorial_billing.html)
+
+
+I've set Billing Alarm to trigger an alarm/ notification to my mail id if the aws usage is reached to 10 USD 
+
+![Billing](Assets/Week0_Billing%20Alarm.PNG)
 
 ## 2. Architecture Diagram
 
