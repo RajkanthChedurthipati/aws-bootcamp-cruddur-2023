@@ -34,16 +34,22 @@ Following images shows the Architecture of the **"Cruddur - Micro-Blogging appli
 ## 3. Installation & Verification of AWS CLI
 I have followed [AWS CLI installation](https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html) documentation
 
-I have installed the AWS CLI in Local machine from Command Prompt  by using following command 
+I have installed the AWS CLI in Local machine from local machines Command Prompt using following command 
+
 ```
 msiexec.exe /i https://awscli.amazonaws.com/AWSCLIV2.msi
 ```
+
 ![AWS CLI Installation](Assets/Week0_AWS%20CLI%20Installation.PNG)
 
-After successfull installation I've checked for AWS version but then I"ve faced an error that AWS was not installed.
+After successfull installation I've checked for AWS version but then I've faced an error that AWS was not recognised a shown below:
+
 ![AWS Version Check](Assets/Week0_AWS%20Error%20after%20AWS%20CLI%20installation.PNG)
 
-Later I've fxed the issue by closing and reopening the command prompt
+Then I've fixed the issue by closing and reopening the command prompt 
+
+![AWS Version Check](Assets/Week0_AWS%20Client%20Running.PNG)
+
 
 ### Configuration of Access key to CLI
 
