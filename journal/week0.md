@@ -19,27 +19,71 @@ You'll need to register following services to fulfill the project implementation
 
 # Week 0 - Billing and Architecture
 
-## Billing
+## 1. Billing
+
+Log in as Root user to AWS Console and under **Account** scroll down to **IAM User and Role Access to Billing Information** and Edit the detail and Select **Activate IAM Access** checkbox and click Update button as shown below 
+
+![Activate Biling  for IAM User](Assets/Week0_Activate%20Billing%20for%20IAM%20user.PNG)
+
+please follow the below link to create and atttach policy to IAM User or User Group
+
+[Link to create a policy for Billing  and attach the policy for IAM User / User Group](https://docs.aws.amazon.com/IAM/latest/UserGuide/tutorial_billing.html)
 
 
+I've set Billing Alarm to trigger an alarm/ notification to my mail id if the aws usage is reached to 10 USD 
 
-## Architecture Diagram
+![Billing](Assets/Week0_Billing%20Alarm.PNG)
+
+## 2. Architecture Diagram
 
 Following images shows the Architecture of the **"Cruddur - Micro-Blogging application"**
 
-### Installation & Verification of AWS CLI
+![Cruddur Logical Diagram](Assets/Cruddur%20Archietecture%20Diagram.png)
+
+[Cruddur Logical Diagram Link](https://lucid.app/lucidchart/82424ea2-6bf4-4f97-a989-6fc494cfdd1f/edit?viewport_loc=-104%2C320%2C2220%2C972%2C0_0&invitationId=inv_4964519e-18db-4a59-8401-97d0305a9e32)
+
+## 3. Installation & Verification of AWS CLI
 I have followed [AWS CLI installation](https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html) documentation
 
-I have installed the AWS CLI in Local machine from Command Prompt  by using following command 
+I have installed the AWS CLI in Local machine from local machines Command Prompt using following command 
+
 ```
 msiexec.exe /i https://awscli.amazonaws.com/AWSCLIV2.msi
 ```
-**Image successfull**
 
-After successfull installation I've checked for AWS version but then I"ve faced an error that AWS was not installed.
-**Image Error**
+![AWS CLI Installation](Assets/Week0_AWS%20CLI%20Installation.PNG)
 
-Later I've fxed the issue by closing and reopening the command prompt
+After successfull installation I've checked for AWS version but then I've faced an error that AWS was not recognised a shown below:
+
+![AWS Version Check](Assets/Week0_AWS%20Error%20after%20AWS%20CLI%20installation.PNG)
+
+Then I've fixed the issue by closing and reopening the command prompt 
+
+![AWS Version Check](Assets/Week0_AWS%20Client%20Running.PNG)
+
 
 ### Configuration of Access key to CLI
+
+I've logged in AWS console and enabled Console access under **Security Credentials** for IAM User
+![Enable Console Access](Assets/Week0_Enable%20Console%20Access.PNG)
+
+I've created Access Key for user using AWS Console and configured in command prompt using following command
+```
+AWS configure
+```
+Entered Access key, Secret Key, Location as us-east-1 generated from AWS Console.
+
+I've verified the Account details of configured Access key using following command in **Command prompt** 
+```
+aws sts get-caller-identity
+```
+![View Configured AWS Access Key](Assets/Week0_AccessKey_Configuration.PNG)
+
+![Account Verification](Assets/Week0_AWS%20Acces%20Key%20Verification.PNG)
+
+
+##
+
+
+
 
